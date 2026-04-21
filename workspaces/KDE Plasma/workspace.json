@@ -1,0 +1,25 @@
+{
+  "description": "KDE Plasma desktop on Ubuntu Resolute (25.10) with Wayland. A modern, full-featured KDE desktop environment delivered through Kasm Workspaces.",
+  "docker_registry": "https://index.docker.io/v1/",
+  "image_src": "kde-plasma.svg",
+  "run_config": {
+    "hostname": "kasm"
+  },
+  "categories": [
+    "Desktop"
+  ],
+  "friendly_name": "KDE Plasma",
+  "architecture": [
+    "amd64"
+  ],
+  "compatibility": [
+    {
+      "version": "1.18.x",
+      "image": "kasmweb/core-ubuntu-resolute-wkde:develop",
+      "uncompressed_size_mb": 4651,
+      "available_tags": [
+        "develop"
+      ]
+    }
+  ]
+}

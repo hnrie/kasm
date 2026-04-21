@@ -1,0 +1,33 @@
+{
+  "description": "Full-featured Ubuntu KDE Plasma desktop with the complete LinuxServer.io toolset (browsers, file manager, productivity apps, dev utilities). Multi-arch (amd64 + arm64), updated daily.",
+  "docker_registry": "https://index.docker.io/v1/",
+  "image_src": "kde-plasma.svg",
+  "run_config": {
+    "hostname": "kasm",
+    "environment": {
+      "PUID": "1000",
+      "PGID": "1000",
+      "TZ": "Etc/UTC",
+      "TITLE": "KDE Plasma (All Tools)"
+    }
+  },
+  "categories": [
+    "Desktop"
+  ],
+  "friendly_name": "KDE Plasma (All Tools)",
+  "architecture": [
+    "amd64",
+    "arm64"
+  ],
+  "notes": "Image is from LinuxServer.io webtop. Listens on port 3000 by default; you may need to map it to Kasm's 6901 or run with --network host. PUID/PGID env vars are typically required.",
+  "compatibility": [
+    {
+      "version": "1.18.x",
+      "image": "linuxserver/webtop:ubuntu-kde",
+      "uncompressed_size_mb": 4250,
+      "available_tags": [
+        "develop"
+      ]
+    }
+  ]
+}
