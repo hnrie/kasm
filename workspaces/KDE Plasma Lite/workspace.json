@@ -15,6 +15,14 @@
   "notes": "Official 'kdeneon/plasma' image - minimal Plasma build. amd64 only. May require additional configuration to integrate with Kasm's KasmVNC (consider running through a wrapper).",
   "compatibility": [
     {
+      "version": "1.17.x",
+      "image": "kdeneon/plasma:user",
+      "uncompressed_size_mb": 5300,
+      "available_tags": [
+        "develop"
+      ]
+    },
+    {
       "version": "1.18.x",
       "image": "kdeneon/plasma:user",
       "uncompressed_size_mb": 5300,

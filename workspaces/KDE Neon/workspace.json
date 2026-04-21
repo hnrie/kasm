@@ -15,6 +15,14 @@
   "notes": "Official 'kdeneon/all' image - the complete KDE Neon experience with all KDE apps preinstalled. amd64 only. May need a KasmVNC wrapper for full Kasm integration.",
   "compatibility": [
     {
+      "version": "1.17.x",
+      "image": "kdeneon/all:user",
+      "uncompressed_size_mb": 5300,
+      "available_tags": [
+        "develop"
+      ]
+    },
+    {
       "version": "1.18.x",
       "image": "kdeneon/all:user",
       "uncompressed_size_mb": 5300,

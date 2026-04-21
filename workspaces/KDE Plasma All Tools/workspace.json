@@ -22,6 +22,14 @@
   "notes": "Image is from LinuxServer.io webtop. Listens on port 3000 by default; you may need to map it to Kasm's 6901 or run with --network host. PUID/PGID env vars are typically required.",
   "compatibility": [
     {
+      "version": "1.17.x",
+      "image": "linuxserver/webtop:ubuntu-kde",
+      "uncompressed_size_mb": 4250,
+      "available_tags": [
+        "develop"
+      ]
+    },
+    {
       "version": "1.18.x",
       "image": "linuxserver/webtop:ubuntu-kde",
       "uncompressed_size_mb": 4250,
