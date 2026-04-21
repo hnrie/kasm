@@ -23,19 +23,39 @@
   ],
   "compatibility": [
     {
-      "version": "1.17.x",
-      "image": "kasmweb/chromium:develop",
-      "uncompressed_size_mb": 2170,
+      "version": "1.16.x",
+      "image": "kasmweb/chromium:1.16.1-rolling-daily",
+      "uncompressed_size_mb": 2643,
       "available_tags": [
-        "develop"
+        "develop",
+        "1.16.0",
+        "1.16.0-rolling-weekly",
+        "1.16.0-rolling-daily",
+        "1.16.1",
+        "1.16.1-rolling-weekly",
+        "1.16.1-rolling-daily"
+      ]
+    },
+    {
+      "version": "1.17.x",
+      "image": "kasmweb/chromium:1.17.0-rolling-daily",
+      "uncompressed_size_mb": 2700,
+      "available_tags": [
+        "develop",
+        "1.17.0",
+        "1.17.0-rolling-weekly",
+        "1.17.0-rolling-daily"
       ]
     },
     {
       "version": "1.18.x",
-      "image": "kasmweb/chromium:develop",
-      "uncompressed_size_mb": 2170,
+      "image": "kasmweb/chromium:1.18.0-rolling-daily",
+      "uncompressed_size_mb": 2750,
       "available_tags": [
-        "develop"
+        "develop",
+        "1.18.0",
+        "1.18.0-rolling-weekly",
+        "1.18.0-rolling-daily"
       ]
     }
   ]
